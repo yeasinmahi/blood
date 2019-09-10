@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>G:\Documents\NetBeen\Blood\dist\Blood.jar</jar>
+  <outfile>G:\Documents\NetBeen\Blood\dist\Blood.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>Yeasin</mutexName>
+    <windowTitle>Blood Search exe</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>BloodSearch.main</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/beansbinding-1.2.1.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.33-bin.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0_1</minVersion>
+    <maxVersion>1.8.0_25</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0y</txtFileVersion>
+    <fileDescription>It is a Blood related soft which is help you to make search desire blood</fileDescription>
+    <copyright>Md. Yeasin Arafat</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0y</txtProductVersion>
+    <productName>Blood Search Product</productName>
+    <companyName>Yeasin COMP</companyName>
+    <internalName>Blood Internal</internalName>
+    <originalFilename>Blood Orginal.exe</originalFilename>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
